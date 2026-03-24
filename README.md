@@ -1,64 +1,13 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Gestao.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="ET.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Mecanico.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Carro.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Ficheiros.h">
-      <Filter>Header Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Ficheiros.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Oficina.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="Gestao.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ET.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Mecanico.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Carro.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Oficina.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <CopyFileToFolders Include="marcas.txt" />
-    <CopyFileToFolders Include="modelo.txt" />
-  </ItemGroup>
-</Project>
+Car Workshop Simulation | Simulação de Oficina de Carros
+Objective | Objetivo
+The objective of this project was to create a simulation of a car workshop. We used data structures to manage the data (such as clients, cars) and algorithms to perform operations like sorting clients based on priority. The simulation helped us understand how data structures and algorithms can be applied in a real-world scenario.
+
+O objetivo deste projeto foi criar uma simulação de uma oficina de carros. Utilizamos estruturas de dados para gerenciar as informações (como clientes, carros) e algoritmos para realizar operações como ordenar clientes com base na prioridade. A simulação ajudou a perceber como estruturas de dados e algoritmos podem ser aplicados em um cenário do mundo real.
+
+How to run it | Como usar a simulação
+It's advised to use Visual Studio and use the default compiler.
+
+É aconselhado usar o Visual Studio e usar o compilador do próprio.
+
+Made by | Envolvidos no projeto
+Paulo Alves, Renato Pêssego, Leonardo Ferreira, Francisco Afonseca
